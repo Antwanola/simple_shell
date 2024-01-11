@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * get_path - The path
- * @command: Argv argument
- * Return: command for
+ * get_path - handl path
+ * @command: rgv args
+ * Return: commands
  */
 
 char *get_path(const char *command)
@@ -51,10 +51,10 @@ char *get_path(const char *command)
 }
 
 /**
- * handle_path - resolve the fulll path
- * @rgv: array of strings representing
- * @cmd: original command string
- * Return: dynamically allocated string
+ * handle_path - resolve path
+ * @rgv: array of strings
+ * @cmd: original command
+ * Return: dynamic allocation
  */
 char *handle_path(char **rgv, const char *cmd)
 {
