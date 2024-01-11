@@ -1,5 +1,10 @@
 #include "shell.h"
 
+/**
+ * interactive- the interactive mode
+ * Return: void
+ */
+
 void interactive()
 {
 	ssize_t isMessage, status;

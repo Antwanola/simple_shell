@@ -1,5 +1,12 @@
 #include "shell.h"
 
+/**
+ * _cpy_from_to cp from and to
+ * @str: the string to cp
+ * @from: the size from
+ * @to: the size of to
+ * Return: char
+ */
 char *_cpy_from_to(char *str, size_t from, size_t to)
 {
     size_t i, p = 0;
