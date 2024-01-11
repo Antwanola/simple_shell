@@ -24,7 +24,6 @@ int _getline(char **buffer, int *size)
 			(*buffer)[length] = '\0';
 			break;
 		}
-	
 		if (length >= *size)
 		{
 			*size *= 2;

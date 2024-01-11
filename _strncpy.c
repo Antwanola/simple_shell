@@ -8,7 +8,7 @@
  * Return: string
  */
 
-char *_strncpy( char *dest, char *src, size_t n)
+char *_strncpy(char *dest, char *src, size_t n)
 {
 	size_t i;
 

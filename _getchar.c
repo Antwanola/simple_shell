@@ -1,6 +1,9 @@
 #include "shell.h"
-
-int _getchar()
+/**
+ * _getchar- gets char
+ * Return: int
+ */
+int _getchar(void)
 {
 	int c;
 
